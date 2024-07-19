@@ -25,3 +25,12 @@ python -V
 python3 -V
 ```
 ```Python 3.12.4```
+
+
+
+## Create virtual Envirnment in python
+
+
+## Install python
+
+[Open](https://github.com/chaushimran/ichaush_python/blob/main/code/Python.md)
