@@ -30,7 +30,9 @@ python3 -V
 
 ## Create virtual Envirnment in python
 
+[Start creating virtual Envirnment in python ](https://github.com/chaushimran/ichaush_python/blob/main/code/python_venv.md)
+
 
 ## Install python
 
-[Open](https://github.com/chaushimran/ichaush_python/blob/main/code/Python.md)
+[Open](https://github.com/chaushimran/ichaush_python/blob/main/code/python_venv.md)
