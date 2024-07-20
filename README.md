@@ -50,3 +50,51 @@ python3 -V
 # Step 3
 
 [Anaconda](https://github.com/chaushimran/ichaush_python/blob/main/code/anaconda.md)
+
+
+# Step 4
+
+```
+# Import necessary libraries
+import matplotlib.pyplot as plt
+
+# Data for the popularity of programming languages over 10 years
+years = [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+languages = ['Python', 'JavaScript', 'Java', 'C#', 'C++']
+popularity = {
+    'Python': [14, 15, 16, 17, 18, 19, 20, 22, 24, 26],
+    'JavaScript': [18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+    'Java': [20, 20, 19, 19, 18, 18, 17, 16, 15, 14],
+    'C#': [10, 10, 11, 11, 12, 12, 12, 12, 12, 12],
+    'C++': [8, 8, 8, 7, 7, 7, 7, 7, 7, 7]
+}
+
+# Create the plot
+plt.figure(figsize=(14, 8))
+
+# Plot each language's popularity over time
+for language in languages:
+    plt.plot(years, popularity[language], marker='o', linestyle='-', label=language)
+
+# Add titles and labels
+plt.title('Popularity of Programming Languages Over 10 Years', fontsize=16)
+plt.xlabel('Year', fontsize=14)
+plt.ylabel('Percentage of Developers Using the Language (%)', fontsize=14)
+
+# Adding a legend
+plt.legend(loc='upper left', fontsize=12)
+
+# Customizing the grid
+plt.grid(color='gray', linestyle='--', linewidth=0.5)
+
+# Adding annotations for the last point of each language
+for language in languages:
+    plt.annotate(f'{popularity[language][-1]}%', 
+                 (years[-1], popularity[language][-1]), 
+                 textcoords="offset points", 
+                 xytext=(0,10), 
+                 ha='center')
+
+# Display the plot
+plt.show()
+```
