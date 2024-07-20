@@ -1,3 +1,11 @@
+Hey everyone! Welcome to this GitHub repository. In this repo, I'll explain how to use Jupyter Notebook on macOS.
+
+I also have a YouTube video that you can find [link to your video]. In the video, I've used this Git repository for easy access for users.
+
+You can copy and paste commands from this repository, or even fork the repo so it will be available in your GitHub account.
+
+
+
 # Step 1 
 
 The easiest way to check if Python is installed on your Mac is to open the Terminal application and type the following command
@@ -38,3 +46,7 @@ python3 -V
 ## Install python
 
 [Install python](https://github.com/chaushimran/ichaush_python/blob/main/code/Python.md)
+
+# Step 3
+
+[Anaconda](https://github.com/chaushimran/ichaush_python/blob/main/code/anaconda.md)
