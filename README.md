@@ -35,4 +35,4 @@ python3 -V
 
 ## Install python
 
-[Open](https://github.com/chaushimran/ichaush_python/blob/main/code/python_venv.md)
+[Install python](https://github.com/chaushimran/ichaush_python/blob/main/code/Python.md)
