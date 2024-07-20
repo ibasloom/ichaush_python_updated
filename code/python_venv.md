@@ -67,6 +67,10 @@ pip install jupyter
 ```
 
 
+```
+jupyter notebook
+```
+
 
 ***7. Deactivate Virtual Environment:***
 
