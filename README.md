@@ -55,6 +55,10 @@ python3 -V
 # Step 4
 
 ```
+pip install matplotlib
+```
+
+```
 # Import necessary libraries
 import matplotlib.pyplot as plt
 
