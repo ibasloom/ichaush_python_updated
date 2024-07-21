@@ -48,7 +48,7 @@ source imran_env_new/bin/activate
 (Optional) You can check the initially installed packages in the virtual environment:
 
 ```
-python -m pip freeze
+python3 -m pip freeze
 ```
 
 
